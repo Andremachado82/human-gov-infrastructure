@@ -1,0 +1,5 @@
+---
+username: ubuntu
+project_name: humangov
+project_path: '/home/{{ username }}/{{ project_name }}'
+source_application_path: ~/Documentos/the_cloud_bootcamp/devops/aulas_terraform/human-gov-application/src
