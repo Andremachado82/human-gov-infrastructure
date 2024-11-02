@@ -1,6 +1,6 @@
-output "state_ec2_public_dns" {
-  value = aws_instance.state_ec2.public_dns
-}
+# output "state_ec2_public_dns" {
+#   value = aws_instance.state_ec2.public_dns
+# }
 
 output "state_dynamodb_table" {
   value = aws_dynamodb_table.state_dynamodb.name
